@@ -1,0 +1,32 @@
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.A{
+    margin-left: 30px;
+}
+.child{
+    height: 240px;
+    width: 150px;
+    border: 2px solid red;
+    border-radius: 5px;
+    margin-top: 150px;
+    margin-left: 20px;
+    text-align: center;
+}
+.B{
+    color: red;
+    font-size: 35px;
+}
+@media only screen and (min-width:300px) and (max-width:500px) {
+    .parent{
+        display: flex;
+        flex-direction: column;
+    }
+    .child{
+        height: 200px;
+        width: 400px;
+    }
+
+}
